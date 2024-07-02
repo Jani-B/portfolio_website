@@ -3,7 +3,14 @@ import styles from "./navbar.module.css";
 export default function NavBar() {
     return (
       <>
-        <p className={styles.nav}>testing</p>
+        <div className={styles.main}>
+        <div className={styles.logo}>
+            <p>Bergholm Portfolio</p>
+        </div>
+        <div className={styles.nav}>
+        <p>testing</p>
+        </div>
+        </div>
       </>
     );
   }
