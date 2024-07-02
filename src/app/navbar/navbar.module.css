@@ -9,13 +9,14 @@
 }
 
 .logo {
-    background-color: blue;
+    background-color: #132A69;
     grid-column: 1 / span 2;
-    padding-left: 0.5rem;
+    padding-left: 5%;
     letter-spacing: 0.3rem;
     text-transform: uppercase;
     font-family: Roboto;
     font-size: 1.5rem;
+    color: #FAC023;
 
 }
 
@@ -26,7 +27,7 @@
 }
 
 .nav {
-    background-color: gray;
+    background-color: #132A69;
     text-align:center;
     grid-column: 3 / span 2;
 }
