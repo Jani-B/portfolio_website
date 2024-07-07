@@ -12,7 +12,7 @@ export default function Header() {
                 <h2>Front end developer</h2>
             </div>
             <div className={styles.pictureDiv}>
-          <Image className={styles.image} src="/images/etusivukuva.jpg" width="1000" height="1000"/>
+          <Image className={styles.image} src="/images/boxburn.png" width="1000" height="1000"/>
             </div>
         </div>
         

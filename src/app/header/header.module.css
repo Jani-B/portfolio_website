@@ -6,7 +6,7 @@
     display: block;
     /*grid-template-columns: minmax(auto, 1fr), minmax(auto, 200px);*/
     /*align-items: center;*/
-    background-image: url('/images/Blue_horizontal.jpg');
+    background-image: url('/images/tausta.jpg');
     background-size: cover;
     padding-top: 15vh;
     padding-bottom: 25vh;
@@ -80,5 +80,5 @@
 .image {
     max-width: 70%;
     height: auto;
-    box-shadow: 2px 2px 5px rgb(14, 14, 71);
+    /*box-shadow: 2px 2px 5px rgb(14, 14, 71);*/
 }

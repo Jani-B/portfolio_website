@@ -6,7 +6,7 @@ export default function Main() {
     return (
       <>
         <div className={styles.projects}>
-          <h2>Projects</h2>
+          <h2>My Main Projects</h2>
 
           <div className={styles.project}>
             <h3>Project nr.1</h3>
