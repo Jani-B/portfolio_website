@@ -6,6 +6,10 @@
     margin-bottom: 2%;*/
     padding: 1%;
     /*box-shadow: -1px -1px 3px #888888;*/
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    
  
 }
 
@@ -14,4 +18,36 @@
     font-family: "Roboto Slab", serif;
     text-transform: uppercase;
     margin-bottom: 1%;
+    grid-column: span 3;
+
+
+}
+
+.project {
+    grid-column: span 1;
+    padding: 1rem;
+    text-align: center;
+    /*border: 1px solid black;*/
+    
+
+}
+
+.project h3 {
+    font-family: "Roboto Slab", serif;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+.image {
+    max-width: 90%;
+    height: auto;
+    border: 1px solid #ddd;
+    padding: 1%;
+}
+
+.project p {
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: justify;
+    
 }
