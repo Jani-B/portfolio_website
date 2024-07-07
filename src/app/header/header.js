@@ -7,6 +7,7 @@ export default function Header() {
       <>
         <div className={styles.header}>
             <div className={styles.headerDiv}>
+              <h1 className={styles.firstHeader}>Hi I am,</h1>
                 <h1 className={styles.firstH}>Jani</h1>
                 <h1 className={styles.secondH}>Bergholm</h1>
                 <h2>Front end developer</h2>

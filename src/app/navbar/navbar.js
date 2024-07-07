@@ -8,7 +8,11 @@ export default function NavBar() {
             <p>Bergholm Portfolio</p>
         </div>
         <div className={styles.nav}>
-        <p>testing</p>
+          <ul>
+            <li>Home</li>
+            <li>Projects</li>
+            <li>About</li>
+          </ul>
         </div>
         </div>
       </>
