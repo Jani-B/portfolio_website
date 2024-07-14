@@ -8,8 +8,8 @@
     /*align-items: center;*/
     background-image: url('/images/tausta.jpg');
     background-size: cover;
-    padding-top: 15vh;
-    padding-bottom: 20vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     /*background-color:green;*/
 
 
@@ -18,19 +18,19 @@
 .headerDiv{
     display: inline-block;
     /*min-width: 500px;*/
-    margin-left: 0%;
+    margin-left: 4%;
     margin-right: 0%;
-    padding-right: 2%;
+    padding-right: 1%;
     padding-left: 2%;
     /*align-self: right;
     align-items: right;*/
     /*justify-content: right;*/
     text-align: left;
-    width: 45%;
+    width: 42%;
     color: #FAC023;
     font-family: "Roboto Slab", serif;
     padding-left: 4%;
-    font-size: 1.7rem;
+    font-size: 1.9rem;
     vertical-align: middle;
 
 
@@ -42,6 +42,7 @@
     font-family: "Roboto Slab", serif;
     font-weight: 400;
     text-shadow: 1px 2px 2px #000000;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
 .firstHeader{
@@ -84,7 +85,8 @@
 }
 
 .image {
-    max-width: 60%;
+    max-width: 90%;
     height: auto;
     /*box-shadow: 2px 2px 5px rgb(14, 14, 71);*/
+    
 }
