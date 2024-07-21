@@ -21,8 +21,8 @@
 }
 
 .logo p{
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 
 }
 
@@ -45,23 +45,27 @@
 }
 
 .nav li {
-    margin: auto;
+    /*margin: auto;*/
     display: inline-block;
     /*float: right;*/
     justify-content: center;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 2.5%;
-    padding-bottom: 2.5%;
+
 }
 
 .nav li a {
     display: block;
     text-align: center;
-    padding: 0.6rem;
+    /*padding: 0.6rem;*/
     text-decoration: none;
     text-transform: uppercase;
     justify-self: center;
+    
+    margin: auto;
+    color: #FAC023;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
 }
 
 .nav li.active {

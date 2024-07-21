@@ -1,12 +1,18 @@
-import styles from "./main.module.css";
+import styles from "./page.module.css";
 import Image from 'next/image';
+import NavBar from "../navbar/navbar.js";
 
 
-export default function Main() {
+
+export default function Projects() {
     return (
       <>
+        <nav>
+          <NavBar />
+        </nav>
+
         <div className={styles.projects}>
-          <h2>My Main Projects</h2>
+          <h2>My Projects</h2>
 
           <div className={styles.project}>
             <h3>Project nr.1</h3>

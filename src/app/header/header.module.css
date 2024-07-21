@@ -6,7 +6,7 @@
     display: block;
     /*grid-template-columns: minmax(auto, 1fr), minmax(auto, 200px);*/
     /*align-items: center;*/
-    background-image: url('/images/tausta.jpg');
+    background-image: url('/images/tausta-peruskoodi.jpg');
     background-size: cover;
     padding-top: 10vh;
     padding-bottom: 10vh;

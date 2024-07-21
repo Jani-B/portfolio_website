@@ -1,4 +1,5 @@
 import styles from "./navbar.module.css";
+import Link from 'next/link';
 
 export default function NavBar() {
     return (
@@ -9,8 +10,8 @@ export default function NavBar() {
         </div>
         <div className={styles.nav}>
           <ul>
-            <li>Home</li>
-            <li>Projects</li>
+            <li><Link href="/">Home</Link></li>
+            <li><Link href="/projects">Projects</Link></li>
             <li>About</li>
           </ul>
         </div>
