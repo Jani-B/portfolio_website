@@ -4,7 +4,7 @@ import NavBar from "../navbar/navbar.js";
 
 
 
-export default function Projects() {
+export default function About() {
     return (
       <>
         <nav>
@@ -12,7 +12,7 @@ export default function Projects() {
         </nav>
 
         <div className={styles.projects}>
-          <h2>My Projects</h2>
+          <h1>My Projects</h1>
 
           <div className={styles.project}>
             <h3>Project nr.1</h3>

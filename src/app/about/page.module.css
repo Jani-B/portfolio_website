@@ -1,55 +1,47 @@
 
-.projects {
-    /*margin-left: 3%;
-    margin-right: 3%;
-    margin-top: 2%;
-    margin-bottom: 2%;*/
-    padding: 1%;
+.about {
+    margin: auto;
+    /*padding: 1%;*/
     /*box-shadow: -1px -1px 3px #888888;*/
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 1rem;
+    text-align: center;
+    align-content: center;
+    padding-left: 15%;
+    padding-right: 15%;
 
+    
     
  
 }
 
-.projects h2 {
+.about h1 {
     color: #FAC023;
     font-family: "Roboto Slab", serif;
     text-transform: uppercase;
-    margin-bottom: 1%;
-    grid-column: span 3;
+    margin-bottom: 3%;
     text-align: center;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     letter-spacing: 1rem;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
 
 
 }
 
-.project {
-    grid-column: span 1;
-    padding: 1rem;
+.aboutMe {
     text-align: center;
     /*border: 1px solid black;*/
     
 
 }
 
-.project h3 {
+.aboutMe h3 {
     font-family: "Roboto Slab", serif;
     margin-bottom: 2%;
     text-align: center;
 }
 
-.image {
-    max-width: 90%;
-    height: auto;
-    border: 1px solid #ddd;
-    padding: 1%;
-}
 
-.project p {
+.aboutMe p {
     padding-left: 3%;
     padding-right: 3%;
     text-align: justify;
