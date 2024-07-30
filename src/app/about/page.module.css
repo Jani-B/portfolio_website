@@ -47,3 +47,17 @@
     text-align: justify;
     
 }
+
+.image {
+    width: 30rem;
+    height: auto;
+    border: 1px solid black;
+}
+
+.skillsList {
+    text-align: left;
+}
+
+.skills h2 {
+    margin-top: 3rem;
+}
