@@ -6,7 +6,8 @@
   display: block;
   /*grid-template-columns: minmax(auto, 1fr), minmax(auto, 200px);*/
   /*align-items: center;*/
-  background-image: url("/images/taustas-peruskoodi_2.jpg");
+  /*background-image: url("/images/taustas-peruskoodi_2.jpg");*/
+  background-color: rgb(35, 0, 111);
   background-size: cover;
   padding-top: 8vh;
   padding-bottom: 8vh;

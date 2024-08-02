@@ -3,17 +3,18 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   width: 100%;
   margin: 0%;
+  border-bottom: 1px solid var(--gold);
 }
 
 .logo {
-  background-color: #132a69;
+  background-color: var(--background);
   grid-column: 1 / span 2;
   padding-left: 5%;
   letter-spacing: 0.3rem;
   text-transform: uppercase;
   font-family: Roboto;
   font-size: 1.5rem;
-  color: #fac023;
+  color: var(--gold);
 }
 
 .logo p {
@@ -22,10 +23,10 @@
 }
 
 .nav {
-  background-color: #132a69;
+  background-color: var(--background);
   text-align: center;
   grid-column: 3 / span 2;
-  color: #fac023;
+  color: var(--gold);
 }
 
 .nav ul {
@@ -53,7 +54,7 @@
   justify-self: center;
 
   margin: auto;
-  color: #fac023;
+  color: var(--gold);
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 1.3rem;
@@ -113,7 +114,7 @@
     display: none;
   }
   .navResponsive {
-    background-color: #132a69;
+    background-color: var(--background);
   }
 
   .navResponsive {
@@ -123,13 +124,13 @@
 
   .navResponsive li {
     list-style-type: none;
-    color: #fac023;
+    color: var(--gold);
     text-align: center;
     padding: 0.3rem;
   }
 
   .navResponsive li a {
-    color: #fac023;
+    color: var(--gold);
     text-decoration: none;
   }
 

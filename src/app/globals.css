@@ -5,3 +5,9 @@ body {
 p {
   margin: 0%;
 }
+
+:root {
+  --background: rgb(35, 0, 111);
+  --backgroundold: #132a69;
+  --gold: #fac023;
+}

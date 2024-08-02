@@ -11,7 +11,7 @@
 }
 
 .projects h2 {
-  color: #fac023;
+  color: var(--gold);
   font-family: "Roboto Slab", serif;
   text-transform: uppercase;
   margin-bottom: 1%;
