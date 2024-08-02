@@ -8,6 +8,45 @@ export default function Main() {
       <div className={styles.projects}>
         <h2>My Main Projects</h2>
         <div className={styles.project}>
+          <h3>My Portfolio Homepage</h3>
+          <Image
+            className={styles.image}
+            src="/images/homepage.jpg"
+            width="500"
+            height="500"
+            alt="project image"
+          />
+          <ul className={styles.codelanguages}>
+            <li>CSS</li>
+            <li>HTML</li>
+            <li>Javascript</li>
+            <li>NEXT.js</li>
+          </ul>
+          <p>
+            This project was interesting. It was my first time working with
+            Next.js It took some time to learn all the Link, Client side etc
+            rules. This site is not the most complicated I have been working
+            with. Challenge was that this was my first touch to Next.js as
+            before I have been working with React.
+            <br />
+            <br />
+            There was some problems with the hamburger menu button on mobile
+            view but I got it sorted out in the end. Next.js will be something I
+            will be working with in the future also.
+            <br />
+            <br />
+          </p>
+          <div className={styles.linkContainer}>
+            <Link
+              className={styles.projectLink}
+              href="https://github.com/Jani-B/portfolio_website"
+              target="_blank"
+            >
+              Github
+            </Link>
+          </div>
+        </div>
+        <div className={styles.project}>
           <h3>Rock - Paper - Scissors Game</h3>
           <Image
             className={styles.image}

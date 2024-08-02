@@ -1,4 +1,4 @@
 .footer {
-    background-color: #132A69;
-    padding: 4rem;
+  background-color: var(--background);
+  padding: 3rem;
 }
