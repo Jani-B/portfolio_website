@@ -1,39 +1,164 @@
 import styles from "./main.module.css";
-import Image from 'next/image';
-
+import Image from "next/image";
+import Link from "next/link";
 
 export default function Main() {
-    return (
-      <>
-        <div className={styles.projects}>
-          <h2>My Main Projects</h2>
+  return (
+    <>
+      <div className={styles.projects}>
+        <h2>My Main Projects</h2>
 
-          <div className={styles.project}>
-            <h3>Project nr.1</h3>
-              <Image className={styles.image} src="/images/etusivukuva.jpg" width="500" height="500" alt="project image"/>
-              <p>test for projects in main. There is a lot of text on this one. "Lorem ipsum dolor sit amet, 
-                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." </p>
-          </div>
-          <div className={styles.project}>
-            <h3>Project nr.2</h3>
-              <Image className={styles.image} src="/images/etusivukuva.jpg" width="500" height="500" alt="project image"/>
-              <p>test for projects in main</p>
-          </div>
-          <div className={styles.project}>
-            <h3>Project nr.3</h3>
-              <Image className={styles.image} src="/images/etusivukuva.jpg" width="500" height="500" alt="project image"/>
-              <p>test for projects in main</p>
-          </div>
-          <div className={styles.project}>
-            <h3>Project nr.3</h3>
-              <Image className={styles.image} src="/images/etusivukuva.jpg" width="500" height="500" alt="project image"/>
-              <p>test for projects in main</p>
+        <div className={styles.project}>
+          <h3>Mortgage calculator</h3>
+          <Image
+            className={styles.image}
+            src="/images/mortgage_calculator.jpg"
+            width="500"
+            height="500"
+            alt="project image"
+          />
+          <ul className={styles.codelanguages}>
+            <li>CSS</li>
+            <li>HTML</li>
+            <li>Javascript</li>
+          </ul>
+          <p>
+            On this project you can calculate monthly payments with the total
+            loan, payment term in years and interest. Project was done using
+            HTML, CSS and Javascript. Tried to keep semantic HTML. Color of the
+            input field will change on focus and the result field will change in
+            different situations. Javascript was used to create different
+            results if for example not everything has been chosen correctly. If
+            everything in calculator has been marked correctly then it will
+            calculate with the given information. Created as a mobile first and
+            when screen size is bigger then the layout will change to work
+            better on the computer screens.
+          </p>
+          <div className={styles.linkContainer}>
+            <Link
+              className={styles.projectLink}
+              href="https://github.com/Jani-B/mortage_calculator"
+              target="_blank"
+            >
+              Github
+            </Link>
+            <Link
+              className={styles.projectLink}
+              href="https://jani-b.github.io/mortage_calculator/"
+              target="_blank"
+            >
+              Github Pages
+            </Link>
           </div>
         </div>
-        
-      </>
-    );
-  }
+        <div className={styles.project}>
+          <h3>Recipe page</h3>
+          <Image
+            className={styles.image}
+            src="/images/recipe-page.jpg"
+            width="500"
+            height="500"
+            alt="project image"
+          />
+          <ul className={styles.codelanguages}>
+            <li>CSS</li>
+            <li>HTML</li>
+          </ul>
+          <p>
+            On this project I created a simple recipe page which has different
+            semantic sections. Project was more of a CSS training than not. It
+            is responsive and created as a mobile first approach. It is part of
+            FrontEnd Mentor challenges.
+          </p>
+          <div className={styles.linkContainer}>
+            <Link
+              className={styles.projectLink}
+              href="https://github.com/Jani-B/FEM-recipe-page-main"
+              target="_blank"
+            >
+              Github
+            </Link>
+            <Link
+              className={styles.projectLink}
+              href="https://jani-b.github.io/FEM-recipe-page-main/"
+              target="_blank"
+            >
+              Github Pages
+            </Link>
+          </div>
+        </div>
+        <div className={styles.project}>
+          <h3>Blog Preview Card</h3>
+          <Image
+            className={styles.image}
+            src="/images/blog-preview.jpg"
+            width="500"
+            height="500"
+            alt="project image"
+          />
+          <ul className={styles.codelanguages}>
+            <li>CSS</li>
+            <li>HTML</li>
+          </ul>
+          <p>
+            This was very basic practice project with CSS and HTML. With this I
+            was also practising how to code when given project on Figma file.
+            Project was simple but important for learnig also work with Figma.
+          </p>
+          <div className={styles.linkContainer}>
+            <Link
+              className={styles.projectLink}
+              href="https://github.com/Jani-B/FEM_Blog_preview_card"
+              target="_blank"
+            >
+              Github
+            </Link>
+            <Link
+              className={styles.projectLink}
+              href="https://jani-b.github.io/FEM_Blog_preview_card/"
+              target="_blank"
+            >
+              Github Pages
+            </Link>
+          </div>
+        </div>
+        <div className={styles.project}>
+          <h3>Social Links Card</h3>
+          <Image
+            className={styles.image}
+            src="/images/social_media_card.jpg"
+            width="500"
+            height="500"
+            alt="project image"
+          />
+          <ul className={styles.codelanguages}>
+            <li>CSS</li>
+            <li>HTML</li>
+          </ul>
+          <p>
+            This was once more one of the Frontend Mentor challenge projects for
+            CSS. Very simple project but was more to remind how different CSS
+            styles work. Also good small project to keep in mind updating to
+            Github.
+          </p>
+          <div className={styles.linkContainer}>
+            <Link
+              className={styles.projectLink}
+              href="https://github.com/Jani-B/FEM-social-links-profile"
+              target="_blank"
+            >
+              Github
+            </Link>
+            <Link
+              className={styles.projectLink}
+              href="https://jani-b.github.io/FEM-social-links-profile/"
+              target="_blank"
+            >
+              Github Pages
+            </Link>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}

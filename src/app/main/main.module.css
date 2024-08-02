@@ -1,57 +1,77 @@
-
 .projects {
-    /*margin-left: 3%;
+  /*margin-left: 3%;
     margin-right: 3%;
     margin-top: 2%;
     margin-bottom: 2%;*/
-    padding: 1%;
-    /*box-shadow: -1px -1px 3px #888888;*/
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 1rem;
-
-    
- 
+  padding: 1%;
+  /*box-shadow: -1px -1px 3px #888888;*/
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
 }
 
 .projects h2 {
-    color: #FAC023;
-    font-family: "Roboto Slab", serif;
-    text-transform: uppercase;
-    margin-bottom: 1%;
-    grid-column: span 3;
-    text-align: center;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    letter-spacing: 1rem;
-
-
+  color: #fac023;
+  font-family: "Roboto Slab", serif;
+  text-transform: uppercase;
+  margin-bottom: 1%;
+  grid-column: span 3;
+  text-align: center;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  letter-spacing: 1rem;
 }
 
 .project {
-    grid-column: span 1;
-    padding: 1rem;
-    text-align: center;
-    /*border: 1px solid black;*/
-    
-
+  grid-column: span 1;
+  padding: 1rem;
+  text-align: center;
+  /*border: 1px solid black;*/
 }
 
 .project h3 {
-    font-family: "Roboto Slab", serif;
-    margin-bottom: 2%;
-    text-align: center;
+  font-family: "Roboto Slab", serif;
+  margin-bottom: 2%;
+  text-align: center;
 }
 
 .image {
-    max-width: 90%;
-    height: auto;
-    border: 1px solid #ddd;
-    padding: 1%;
+  max-width: 90%;
+  height: auto;
+  border: 1px solid #ddd;
+  padding: 1%;
+  border-radius: 10px;
+  max-height: 300px;
+  object-fit: cover;
 }
 
 .project p {
-    padding-left: 3%;
-    padding-right: 3%;
-    text-align: justify;
-    
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: justify;
+  margin-top: 1rem;
+}
+
+.codelanguages {
+  list-style: none;
+  margin-bottom: 2rem;
+  padding-left: 0;
+}
+
+.codelanguages li {
+  font-size: 0.8rem;
+  display: inline;
+  padding: 0.5rem 0.5rem;
+
+  margin: 0 1rem;
+  background-color: rgba(13, 117, 13, 0.452);
+  border-radius: 5px;
+}
+
+.linkContainer {
+  margin-top: 1rem;
+}
+
+.projectLink {
+  padding: 1rem;
+  margin-top: 1rem;
 }
