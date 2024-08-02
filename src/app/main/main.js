@@ -7,7 +7,50 @@ export default function Main() {
     <>
       <div className={styles.projects}>
         <h2>My Main Projects</h2>
-
+        <div className={styles.project}>
+          <h3>Rock - Paper - Scissors Game</h3>
+          <Image
+            className={styles.image}
+            src="/images/rockpaper.jpg"
+            width="500"
+            height="500"
+            alt="project image"
+          />
+          <ul className={styles.codelanguages}>
+            <li>CSS</li>
+            <li>HTML</li>
+            <li>Javascript</li>
+            <li>React</li>
+          </ul>
+          <p>
+            This project was just small game of rock paper scissors. In the game
+            you can choose which "weapon" you use and then you will see which
+            one your opponent chose. The game will also calculate wins.
+            <br />
+            <br />
+            Project was done mobile first with React. The buttons on mobile
+            version are in the bottom of the screen after the first choise. It
+            should be easier to use that way.
+            <br />
+            <br />
+          </p>
+          <div className={styles.linkContainer}>
+            <Link
+              className={styles.projectLink}
+              href="https://github.com/Jani-B/rock-paper-game"
+              target="_blank"
+            >
+              Github
+            </Link>
+            <Link
+              className={styles.projectLink}
+              href="https://handsgame.netlify.app/"
+              target="_blank"
+            >
+              Live in Netlify
+            </Link>
+          </div>
+        </div>
         <div className={styles.project}>
           <h3>Mortgage calculator</h3>
           <Image
