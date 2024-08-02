@@ -68,18 +68,89 @@
   background-color: #1c3988;
 }
 
+.nav .icon {
+  display: none;
+}
+
 @media only screen and (max-width: 800px) {
   .logo {
     font-size: 1rem;
+    grid-column: 1 / 5;
   }
 
   .logo p {
     margin-top: 0, 8rem;
     margin-bottom: 0, 8rem;
   }
+  .nav {
+    grid-column: 1 / 5;
+  }
 
   .nav li a {
     padding-top: 1rem;
     padding-bottom: 1rem;
+  }
+
+  .nav ul {
+    text-align: right;
+  }
+
+  .nav .icon {
+    display: block;
+    text-align: right;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 10%;
+    padding-bottom: 0;
+  }
+
+  .nav .icon a {
+    text-align: right;
+  }
+
+  .nav .normal {
+    display: none;
+  }
+  .navResponsive {
+    background-color: #132a69;
+  }
+
+  .navResponsive {
+    list-style-type: none;
+    grid-column: 1 / 5;
+  }
+
+  .navResponsive li {
+    list-style-type: none;
+    color: #fac023;
+    text-align: center;
+    padding: 0.3rem;
+  }
+
+  .navResponsive li a {
+    color: #fac023;
+    text-decoration: none;
+  }
+
+  .navResponsive .icon {
+    display: block;
+    text-align: right;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 5%;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+
+  .navResponsive li:hover {
+    background-color: #1c3988;
+  }
+
+  .navResponsive .normal {
+    display: block;
   }
 }
