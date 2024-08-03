@@ -7,7 +7,8 @@ import { useState } from "react";
 export default function NavBar() {
   const [menu, setMenu] = useState(styles.nav);
 
-  const menuChange = () => {
+  const menuChange = (e) => {
+    e.preventDefault();
     if (menu === styles.nav) {
       setMenu(styles.navResponsive);
     } else {
@@ -33,7 +34,7 @@ export default function NavBar() {
               <Link href="/about">About</Link>
             </li>
             <li className={styles.icon}>
-              <Link href="javascript:void(0);" onClick={() => menuChange()}>
+              <Link href="#" onClick={(e) => menuChange(e)}>
                 ☰
               </Link>
             </li>

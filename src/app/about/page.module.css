@@ -1,63 +1,65 @@
-
 .about {
-    margin: auto;
-    /*padding: 1%;*/
-    /*box-shadow: -1px -1px 3px #888888;*/
-    text-align: center;
-    align-content: center;
-    padding-left: 15%;
-    padding-right: 15%;
-
-    
-    
- 
+  margin: auto;
+  /*padding: 1%;*/
+  /*box-shadow: -1px -1px 3px #888888;*/
+  text-align: center;
+  align-content: center;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 .about h1 {
-    color: #FAC023;
-    font-family: "Roboto Slab", serif;
-    text-transform: uppercase;
-    margin-bottom: 3%;
-    text-align: center;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    letter-spacing: 1rem;
-    padding-top: 5rem;
-    padding-bottom: 3rem;
-
-
+  color: #fac023;
+  font-family: "Roboto Slab", serif;
+  text-transform: uppercase;
+  margin-bottom: 3%;
+  text-align: center;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  letter-spacing: 1rem;
+  padding-top: 5rem;
+  padding-bottom: 3rem;
 }
 
 .aboutMe {
-    text-align: center;
-    /*border: 1px solid black;*/
-    
-
+  text-align: center;
+  letter-spacing: 5%;
+  line-height: 150%;
+  /*border: 1px solid black;*/
 }
 
 .aboutMe h3 {
-    font-family: "Roboto Slab", serif;
-    margin-bottom: 2%;
-    text-align: center;
+  font-family: "Roboto Slab", serif;
+  margin-bottom: 2%;
+  text-align: center;
 }
 
-
 .aboutMe p {
-    padding-left: 3%;
-    padding-right: 3%;
-    text-align: justify;
-    
+  padding-left: 3%;
+  padding-right: 3%;
+  text-align: justify;
 }
 
 .image {
-    width: 30rem;
-    height: auto;
-    border: 1px solid black;
+  width: 30rem;
+  height: auto;
+  border: 1px solid black;
 }
 
 .skillsList {
-    text-align: left;
+  padding: 0 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  line-height: 150%;
+  list-style-type: none;
 }
 
 .skills h2 {
-    margin-top: 3rem;
+  margin-top: 3rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .image {
+    width: 70%;
+  }
 }
