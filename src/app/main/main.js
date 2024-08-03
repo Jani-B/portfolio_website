@@ -9,13 +9,15 @@ export default function Main() {
         <h2>My Main Projects</h2>
         <div className={styles.project}>
           <h3>My Portfolio Homepage</h3>
-          <Image
-            className={styles.image}
-            src="/images/homepage.jpg"
-            width="500"
-            height="500"
-            alt="project image"
-          />
+          <Link href="https://www.janibergholm.com/" target="_blank">
+            <Image
+              className={styles.image}
+              src="/images/homepage.jpg"
+              width="500"
+              height="500"
+              alt="project image"
+            />
+          </Link>
           <ul className={styles.codelanguages}>
             <li>CSS</li>
             <li>HTML</li>
@@ -48,13 +50,15 @@ export default function Main() {
         </div>
         <div className={styles.project}>
           <h3>Rock - Paper - Scissors Game</h3>
-          <Image
-            className={styles.image}
-            src="/images/rockpaper.jpg"
-            width="500"
-            height="500"
-            alt="project image"
-          />
+          <Link href="https://handsgame.netlify.app/" target="_blank">
+            <Image
+              className={styles.image}
+              src="/images/rockpaper.jpg"
+              width="500"
+              height="500"
+              alt="project image"
+            />
+          </Link>
           <ul className={styles.codelanguages}>
             <li>CSS</li>
             <li>HTML</li>
@@ -92,13 +96,18 @@ export default function Main() {
         </div>
         <div className={styles.project}>
           <h3>Mortgage calculator</h3>
-          <Image
-            className={styles.image}
-            src="/images/mortgage_calculator.jpg"
-            width="500"
-            height="500"
-            alt="project image"
-          />
+          <Link
+            href="https://jani-b.github.io/mortage_calculator/"
+            target="_blank"
+          >
+            <Image
+              className={styles.image}
+              src="/images/mortgage_calculator.jpg"
+              width="500"
+              height="500"
+              alt="project image"
+            />
+          </Link>
           <ul className={styles.codelanguages}>
             <li>CSS</li>
             <li>HTML</li>
@@ -135,13 +144,18 @@ export default function Main() {
         </div>
         <div className={styles.project}>
           <h3>Recipe page</h3>
-          <Image
-            className={styles.image}
-            src="/images/recipe-page.jpg"
-            width="500"
-            height="500"
-            alt="project image"
-          />
+          <Link
+            href="https://jani-b.github.io/FEM-recipe-page-main/"
+            target="_blank"
+          >
+            <Image
+              className={styles.image}
+              src="/images/recipe-page.jpg"
+              width="500"
+              height="500"
+              alt="project image"
+            />{" "}
+          </Link>
           <ul className={styles.codelanguages}>
             <li>CSS</li>
             <li>HTML</li>
@@ -171,13 +185,18 @@ export default function Main() {
         </div>
         <div className={styles.project}>
           <h3>Blog Preview Card</h3>
-          <Image
-            className={styles.image}
-            src="/images/blog-preview.jpg"
-            width="500"
-            height="500"
-            alt="project image"
-          />
+          <Link
+            href="https://jani-b.github.io/FEM_Blog_preview_card/"
+            target="_blank"
+          >
+            <Image
+              className={styles.image}
+              src="/images/blog-preview.jpg"
+              width="500"
+              height="500"
+              alt="project image"
+            />{" "}
+          </Link>
           <ul className={styles.codelanguages}>
             <li>CSS</li>
             <li>HTML</li>
@@ -206,13 +225,18 @@ export default function Main() {
         </div>
         <div className={styles.project}>
           <h3>Social Links Card</h3>
-          <Image
-            className={styles.image}
-            src="/images/social_media_card.jpg"
-            width="500"
-            height="500"
-            alt="project image"
-          />
+          <Link
+            href="https://jani-b.github.io/FEM-social-links-profile/"
+            target="_blank"
+          >
+            <Image
+              className={styles.image}
+              src="/images/social_media_card.jpg"
+              width="500"
+              height="500"
+              alt="project image"
+            />{" "}
+          </Link>
           <ul className={styles.codelanguages}>
             <li>CSS</li>
             <li>HTML</li>
