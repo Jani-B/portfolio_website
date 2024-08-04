@@ -8,6 +8,52 @@ export default function Main() {
       <div className={styles.projects}>
         <h2>My Main Projects</h2>
         <div className={styles.project}>
+          <h3>Four Cards Preview</h3>
+          <Link href="https://www.janibergholm.com/" target="_blank">
+            <Image
+              className={styles.image}
+              src="/images/four_cards.jpg"
+              width="500"
+              height="500"
+              alt="project image"
+            />
+          </Link>
+          <ul className={styles.codelanguages}>
+            <li>CSS</li>
+            <li>HTML</li>
+            <li>Javascript</li>
+            <li>NEXT.js</li>
+          </ul>
+          <p>
+            Very simple one page layout with 4 cards in it. The challenge here
+            was to get everything working with CSS Grid and I wanted to use
+            Next.js to further learn the basic structure. I also used mapping
+            for Card object file to map trough it and get headers text and
+            pictures to the cards this way.
+            <br />
+            <br />
+            This project as it was simple helped me to take what I have learned
+            from React to Next.js Next time I will further take what I know in
+            React to Next.js
+          </p>
+          <div className={styles.linkContainer}>
+            <Link
+              className={styles.projectLink}
+              href="https://github.com/Jani-B/FEM-four-card-feature-nextjs"
+              target="_blank"
+            >
+              Github
+            </Link>
+            <Link
+              className={styles.projectLink}
+              href="https://janifourdcards.netlify.app/"
+              target="_blank"
+            >
+              Netlify
+            </Link>
+          </div>
+        </div>
+        <div className={styles.project}>
           <h3>My Portfolio Homepage</h3>
           <Link href="https://www.janibergholm.com/" target="_blank">
             <Image
@@ -177,46 +223,6 @@ export default function Main() {
             <Link
               className={styles.projectLink}
               href="https://jani-b.github.io/FEM-recipe-page-main/"
-              target="_blank"
-            >
-              Github Pages
-            </Link>
-          </div>
-        </div>
-        <div className={styles.project}>
-          <h3>Blog Preview Card</h3>
-          <Link
-            href="https://jani-b.github.io/FEM_Blog_preview_card/"
-            target="_blank"
-          >
-            <Image
-              className={styles.image}
-              src="/images/blog-preview.jpg"
-              width="500"
-              height="500"
-              alt="project image"
-            />{" "}
-          </Link>
-          <ul className={styles.codelanguages}>
-            <li>CSS</li>
-            <li>HTML</li>
-          </ul>
-          <p>
-            This was very basic practice project with CSS and HTML. With this I
-            was also practising how to code when given project on Figma file.
-            Project was simple but important for learnig also work with Figma.
-          </p>
-          <div className={styles.linkContainer}>
-            <Link
-              className={styles.projectLink}
-              href="https://github.com/Jani-B/FEM_Blog_preview_card"
-              target="_blank"
-            >
-              Github
-            </Link>
-            <Link
-              className={styles.projectLink}
-              href="https://jani-b.github.io/FEM_Blog_preview_card/"
               target="_blank"
             >
               Github Pages
