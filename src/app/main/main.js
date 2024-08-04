@@ -9,7 +9,7 @@ export default function Main() {
         <h2>My Main Projects</h2>
         <div className={styles.project}>
           <h3>Four Cards Preview</h3>
-          <Link href="https://www.janibergholm.com/" target="_blank">
+          <Link href="https://janifourdcards.netlify.app/" target="_blank">
             <Image
               className={styles.image}
               src="/images/four_cards.jpg"
