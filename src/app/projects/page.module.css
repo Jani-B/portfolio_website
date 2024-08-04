@@ -7,10 +7,10 @@
   /*box-shadow: -1px -1px 3px #888888;*/
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 1rem;
+  gap: 2px;
 }
 
-.projects h1 {
+.h1 {
   color: #fac023;
   font-family: "Roboto Slab", serif;
   text-transform: uppercase;
@@ -24,7 +24,7 @@
   padding-bottom: 3rem;
 }
 
-.project {
+.myProject {
   grid-column: span 1;
   padding: 1rem;
   text-align: center;
@@ -77,30 +77,27 @@
   margin-top: 1rem;
 }
 
-@media only screen and (max-width: 1250px) {
+@media (max-width: 1250px) {
   .projects {
     grid-template-columns: 1fr 1fr;
   }
 
-  .projects h1 {
+  .h1 {
     grid-column: span 2;
-  }
-
-  .project {
-    grid-column: 1fr;
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media (max-width: 950px) {
   .projects {
     grid-template-columns: 1fr;
-  }
-  .projects h1 {
-    grid-column: 1fr;
-    text-align: center;
+    gap: 0px;
   }
 
-  .project {
-    grid-column: 1fr;
+  .h1 {
+    grid-column: span 1;
+  }
+
+  .test {
+    color: green;
   }
 }

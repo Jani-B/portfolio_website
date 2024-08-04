@@ -12,11 +12,11 @@ export default function About() {
       </nav>
 
       <div className={styles.projects}>
-        <h1>My Projects</h1>
+        <h1 className={styles.h1}>My Projects</h1>
 
         {cardInfo.map((info) => (
-          <div key={info.cardId} className={styles.project}>
-            <h3>{info.cardHeader}</h3>
+          <div className={styles.myProject} key={info.cardId}>
+            <h3 className={styles.test}>{info.cardHeader}</h3>
             <Link href={info.webpage}>
               <Image
                 className={styles.image}
