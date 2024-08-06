@@ -1,5 +1,21 @@
 export const cardInfo = [
   {
+    cardId: "card9",
+    frontpage: false,
+    cardHeader: "Testimonials Grid",
+    stack: ["CSS", "HTML"],
+    cardText: [
+      "Very simple one page layout with CSS Grid. ",
+      "This project I created just with CSS and HTML as it was part of the challenge. ",
+      "There is a Grid with different column and row sizes for different cards. ",
+    ],
+
+    cardPicture: "/images/testimonials.jpg",
+    github: "https://github.com/Jani-B/FEM-testimonials",
+    webpage: "https://jani-b.github.io/FEM-testimonials/",
+  },
+
+  {
     cardId: "card8",
     frontpage: true,
     cardHeader: "Four Cards Preview",
