@@ -10,9 +10,5 @@ Creating webiste using Next.js
 
 # Plan:
 
-- First get the Next.js working locally
-- Then create a basic website structure
-- Make it look better
-- Add projects to front page (4-5 most important ones)
-- Add projects to project page
-- Add stuff to about page
+- Still to add:
+  - Noticed that mapping through cardinfo had an issue. If no link for livepage is present. Will have an error. Have to fix this by creating an if function to check if live page true etc.

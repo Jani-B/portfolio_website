@@ -1,5 +1,22 @@
 export const cardInfo = [
   {
+    cardId: "card10",
+    frontpage: true,
+    cardHeader: "Task Manager",
+    stack: ["CSS", "HTML", "Next.js", "Typescript"],
+    cardText: [
+      "Task Manager that will add task (on server side)",
+      "Tasks will stay even after the page has been updated",
+      "Tasks are written on json file with fs.writefile and read with fs.readfile",
+      "Added also a feature that if there is 10 tasks it will not allow to add more by removing the form",
+      "Currently NO LIVE PAGE on this project",
+    ],
+
+    cardPicture: "/images/taskmanager.jpg",
+    github: "https://github.com/Jani-B/taskmanager-nextjs",
+    webpage: "",
+  },
+  {
     cardId: "card9",
     frontpage: false,
     cardHeader: "Testimonials Grid",

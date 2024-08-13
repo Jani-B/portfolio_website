@@ -21,7 +21,7 @@ export default function Main() {
           {frontpage.map((info) => (
             <div key={`front${info.cardId}`} className={styles.project}>
               <h3>{info.cardHeader}</h3>
-              <Link href={info.webpage}>
+              <Link href={info.webpage} target="_blank">
                 <Image
                   className={styles.image}
                   src={info.cardPicture}
