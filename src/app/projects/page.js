@@ -17,7 +17,7 @@ export default function About() {
         {cardInfo.map((info) => (
           <div className={styles.myProject} key={info.cardId}>
             <h3 className={styles.test}>{info.cardHeader}</h3>
-            <Link href={info.webpage} target="_blank">
+            <Link href={info.webpage}>
               <Image
                 className={styles.image}
                 src={info.cardPicture}

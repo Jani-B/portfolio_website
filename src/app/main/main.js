@@ -19,9 +19,13 @@ export default function Main() {
         <div className={styles.projects}>
           <h2>My Main Projects</h2>
           {frontpage.map((info) => (
-            <div key={`front${info.cardId}`} className={styles.project}>
+            <div
+              key={`front${info.cardId}`}
+              className={styles.project}
+              id={`id${info.cardId}`}
+            >
               <h3>{info.cardHeader}</h3>
-              <Link href={info.webpage} target="_blank">
+              <Link href={info.webpage}>
                 <Image
                   className={styles.image}
                   src={info.cardPicture}

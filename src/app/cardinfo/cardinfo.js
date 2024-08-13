@@ -14,7 +14,7 @@ export const cardInfo = [
 
     cardPicture: "/images/taskmanager.jpg",
     github: "https://github.com/Jani-B/taskmanager-nextjs",
-    webpage: "",
+    webpage: "#idcard10",
   },
   {
     cardId: "card9",
