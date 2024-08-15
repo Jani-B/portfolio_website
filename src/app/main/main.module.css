@@ -12,7 +12,7 @@
 
 .projects h2 {
   color: var(--gold);
-  font-family: "Roboto Slab", serif;
+  font-family: "Radio Canada Big", sans-serif;
   text-transform: uppercase;
   margin-bottom: 1%;
   grid-column: span 3;

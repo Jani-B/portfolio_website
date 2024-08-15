@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital@0;1&display=swap");
+
 body {
   margin: 0%;
 }
@@ -10,4 +12,11 @@ p {
   --background: rgb(35, 0, 111);
   --backgroundold: #132a69;
   --gold: #fac023;
+}
+
+.radio-canada-big-400 {
+  font-family: "Radio Canada Big", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
