@@ -97,6 +97,7 @@
   text-transform: uppercase;
   border: none;
   border-radius: 2rem;
+  text-decoration: none;
 }
 
 .contactButton:hover {

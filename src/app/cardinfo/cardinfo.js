@@ -71,9 +71,9 @@ export const cardInfo = [
     cardHeader: "My Portfolio Homepage",
     stack: ["CSS", "HTML", "Javascript", "NEXT.js"],
     cardText: [
-      "This project was interesting. It was my first time working with ",
+      "This project was interesting. It was my first time working with. ",
       "Next.js It took some time to learn all the Link, Client side etc rules. ",
-      `This site is not the most complicated I have been working with `,
+      `This site is not the most complicated I have been working with. `,
 
       "Challenge was that this was my first touch to Next.js asbefore I have been working with React. ",
       "There was some problems with the hamburger menu button on mobile view but I got it sorted out in the end. Next.js will be something I will be working with in the future also.",
