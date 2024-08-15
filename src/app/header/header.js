@@ -11,7 +11,7 @@ export default function Header() {
           <h1 className={styles.firstH}>Jani</h1>
           <h1 className={styles.secondH}>Bergholm</h1>
           <h2>Front end developer</h2>
-          <Link href="/about">
+          <Link className={styles.contactButtonContainer} href="/about">
             <button className={styles.contactButton}>About me</button>
           </Link>
         </div>

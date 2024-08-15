@@ -37,19 +37,24 @@ export default function Projects() {
           </ul>
 
           <h2>Courses</h2>
-          <p>
-            Front End - Engineer : CodeCademy <br />
-            <br />
-            <Image
-              className={styles.image}
-              src="/images/front-end-sertificate.jpg"
-              width="1000"
-              height="1000"
-              alt="code image"
-            />
-            <br />
-            <br />
-          </p>
+          <p>Front End - Engineer : CodeCademy</p>
+
+          <Image
+            className={styles.image}
+            src="/images/front-end-sertificate.jpg"
+            width="1000"
+            height="1000"
+            alt="code image"
+          />
+          <p>React - course : CodeCademy</p>
+          <Image
+            className={styles.image}
+            src="/images/react-sertificate.jpg"
+            width="1000"
+            height="1000"
+            alt="code image"
+          />
+          <br />
         </div>
       </div>
     </>

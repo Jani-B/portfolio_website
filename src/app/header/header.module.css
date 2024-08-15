@@ -100,6 +100,10 @@
   text-decoration: none;
 }
 
+.contactButtonContainer {
+  text-decoration: none;
+}
+
 .contactButton:hover {
   box-shadow: 0 5px 8px 0 rgba(255, 250, 250, 0.425),
     0 6px 20px 0 rgba(255, 255, 255, 0.137);

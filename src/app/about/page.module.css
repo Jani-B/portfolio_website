@@ -43,6 +43,8 @@
   width: 30rem;
   height: auto;
   border: 1px solid black;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
 }
 
 .skillsList {
