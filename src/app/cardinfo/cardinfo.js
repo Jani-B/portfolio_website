@@ -1,5 +1,21 @@
 export const cardInfo = [
   {
+    cardId: "card11",
+    frontpage: true,
+    cardHeader: "Raveneus Restaurant Search API",
+    stack: ["CSS", "HTML", "REACT", "Javascript"],
+    cardText: [
+      "Raveneus React App is about using Yelp API to search for restaurants",
+      "User can use to search a Reastaurant using the input fields",
+      "API fill find correct restaurants that matches the input",
+      "Currently NO LIVE PAGE on this project",
+    ],
+
+    cardPicture: "/images/Raveneus.jpg",
+    github: "https://github.com/Jani-B/ravenous-react",
+    webpage: "#idcard11",
+  },
+  {
     cardId: "card10",
     frontpage: true,
     cardHeader: "Task Manager",
