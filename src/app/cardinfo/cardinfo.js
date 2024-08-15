@@ -34,7 +34,7 @@ export const cardInfo = [
   },
   {
     cardId: "card9",
-    frontpage: false,
+    frontpage: true,
     cardHeader: "Testimonials Grid",
     stack: ["CSS", "HTML"],
     cardText: [
@@ -84,7 +84,7 @@ export const cardInfo = [
   },
   {
     cardId: "card6",
-    frontpage: true,
+    frontpage: false,
     cardHeader: "Rock - Paper - Scissors Game",
     stack: ["CSS", "HTML", "Javascript", "REACT"],
     cardText: [
@@ -122,7 +122,7 @@ export const cardInfo = [
   },
   {
     cardId: "card4",
-    frontpage: true,
+    frontpage: false,
     cardHeader: "Recipe page",
     stack: ["CSS", "HTML"],
     cardText: [
@@ -151,7 +151,7 @@ export const cardInfo = [
   },
   {
     cardId: "card2",
-    frontpage: true,
+    frontpage: false,
     cardHeader: "Social Links Card",
     stack: ["CSS", "HTML"],
     cardText: [
