@@ -12,7 +12,7 @@ export const cardInfo = [
     ],
 
     cardPicture: "/images/findrestaurant.jpg",
-    github: "https://github.com/Jani-B/ravenous-react",
+    github: "https://github.com/Jani-B/findRestaurant-react",
     webpage: "#idcard11",
   },
   {
