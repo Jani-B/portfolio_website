@@ -9,12 +9,11 @@
 }
 
 .about h1 {
-  color: #fac023;
-  font-family: "Roboto Slab", serif;
   text-transform: uppercase;
+  font-size: 1.8rem;
+  font-weight: 800;
   margin-bottom: 3%;
   text-align: center;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   letter-spacing: 1rem;
   padding-top: 5rem;
   padding-bottom: 3rem;
@@ -37,14 +36,18 @@
   padding-left: 3%;
   padding-right: 3%;
   text-align: justify;
+  font-size: 1.2rem;
 }
 
-.image {
-  width: 30rem;
-  height: auto;
-  border: 1px solid black;
-  margin-bottom: 2rem;
-  margin-top: 1rem;
+.skills h2 {
+  margin-top: 3rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.skills p {
+  font-size: 1.2rem;
 }
 
 .skillsList {
@@ -56,8 +59,17 @@
   list-style-type: none;
 }
 
-.skills h2 {
-  margin-top: 3rem;
+.skillsList li {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.image {
+  width: 30rem;
+  height: auto;
+  border: 1px solid black;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
 }
 
 @media only screen and (max-width: 800px) {
