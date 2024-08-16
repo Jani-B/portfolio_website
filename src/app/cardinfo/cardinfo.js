@@ -8,7 +8,6 @@ export const cardInfo = [
       "Find restaurant React App is about using Yelp API to search for restaurants",
       "User can use to search a Reastaurant using the input fields",
       "API fill find correct restaurants that matches the input",
-      "Currently NO LIVE PAGE on this project",
     ],
 
     cardPicture: "/images/findrestaurant.jpg",
@@ -26,7 +25,6 @@ export const cardInfo = [
       "Tasks will stay even after the page has been updated",
       "Tasks are written on json file with fs.writefile and read with fs.readfile",
       "Added also a feature that if there is 10 tasks it will not allow to add more by removing the form",
-      "Currently NO LIVE PAGE on this project",
     ],
 
     cardPicture: "/images/taskmanager.jpg",
