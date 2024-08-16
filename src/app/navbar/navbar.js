@@ -20,9 +20,10 @@ export default function NavBar() {
     <>
       <div className={styles.main}>
         <div className={styles.logo}>
-          <p>
-            <Link href="/">Bergholm Portfolio</Link>
-          </p>
+          <p className={styles.logoB}> B</p>
+          <Link className={styles.navName} href="/">
+            Bergholm
+          </Link>
         </div>
         <div className={menu} id={styles.myLinks}>
           <ul>
