@@ -7,29 +7,29 @@
   /*box-shadow: -1px -1px 3px #888888;*/
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 1rem;
+  gap: 1rem;
 }
 
 .projects h2 {
-  color: var(--gold);
-  font-family: "Radio Canada Big", sans-serif;
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: black;
   text-transform: uppercase;
-  margin-bottom: 1%;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
   grid-column: span 3;
   text-align: center;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  letter-spacing: 1rem;
+  /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
+  letter-spacing: 0.5rem;
 }
 
 .project {
   grid-column: span 1;
-  padding: 1rem;
   text-align: center;
-  /*border: 1px solid black;*/
 }
 
 .project h3 {
-  font-family: "Roboto Slab", serif;
   margin-bottom: 2%;
   text-align: center;
 }
@@ -37,7 +37,7 @@
 .image {
   max-width: 90%;
   height: auto;
-  border: 1px solid #ddd;
+  border: 1px solid #eeecec;
   padding: 1%;
   border-radius: 10px;
   max-height: 300px;
@@ -55,6 +55,7 @@
   list-style: none;
   margin-bottom: 2rem;
   padding-left: 0;
+  margin-top: 1rem;
 }
 
 .codelanguages li {
@@ -98,7 +99,8 @@
 
   .projects h2 {
     grid-column: 1;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    letter-spacing: 0.4rem;
   }
 
   .project {
@@ -109,8 +111,8 @@
 @media only screen and (max-width: 500px) {
   .projects h2 {
     grid-column: 1;
-    font-size: 0.8rem;
-    letter-spacing: 0.5rem;
+    font-size: 1.2rem;
+    letter-spacing: 0.3rem;
   }
 
   .projects p {

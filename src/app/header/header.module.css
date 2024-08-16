@@ -2,57 +2,30 @@
 
 .header {
   width: 100%;
-  display: block;
   background-color: var(--background);
   background-size: cover;
-  padding-top: 8vh;
-  padding-bottom: 8vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .headerDiv {
-  display: inline-block;
+  text-align: center;
+  color: white;
+  padding-top: 3rem;
+}
 
-  margin-left: 4%;
-  margin-right: 0%;
-  padding-right: 1%;
-  padding-left: 2%;
-  text-align: left;
-  width: 42%;
-  color: #fac023;
-  padding-left: 4%;
-  font-size: 1.9rem;
-  vertical-align: middle;
+.firstHeader {
+  font-size: 1.2rem;
+  color: white;
   font-family: "Radio Canada Big", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
-
-.headerDiv h1 {
-  text-transform: uppercase;
-  letter-spacing: 1.3rem;
+.firstH {
   font-family: "Radio Canada Big", sans-serif;
   font-weight: 400;
-  text-shadow: 1px 2px 2px #000000;
-  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
-}
-
-.firstHeader {
-  margin-top: 0%;
-  margin-bottom: 0%;
-  font-size: 1.7rem;
-  color: white;
-  /*color: #f5af0dc7;*/
-}
-
-.firstH {
-  margin-top: 0%;
-  margin-bottom: 0%;
-}
-
-.secondH {
-  margin-top: 0%;
-
-  margin-bottom: 0%;
+  font-style: normal;
 }
 
 .headerDiv h2 {
@@ -60,31 +33,34 @@
   font-size: 1.5rem;
   text-shadow: 2px 2px 4px #000000;
   font-weight: 400;
-  letter-spacing: 0.5rem;
 }
 
 .pictureDiv {
   text-align: center;
-  display: inline-block;
-
-  width: 47%;
-  vertical-align: middle;
+  width: 30%;
 }
 
 .image {
   max-width: 70%;
   height: auto;
-  /*box-shadow: 2px 2px 5px rgb(14, 14, 71);*/
+}
+
+.additionalInfo {
+  color: white;
+  width: 25%;
+  text-align: center;
+  line-height: 200%;
+  font-size: 0.7rem;
 }
 
 .contactButton {
-  background-color: purple;
+  background-color: var(--orange-gold);
+  font-size: 0.7rem;
   color: white;
-  padding: 1rem;
+  padding: 0.5rem 2rem;
+  margin-bottom: 2rem;
   text-align: center;
-  margin-left: 15%;
-  margin-top: 2rem;
-  text-transform: uppercase;
+  margin-top: 1rem;
   border: none;
   border-radius: 2rem;
   text-decoration: none;
@@ -100,21 +76,12 @@
 }
 
 @media only screen and (max-width: 1020px) {
-  .pictureDiv {
-    display: none;
-  }
-
-  .image {
-    display: none;
-  }
-
   .headerDiv {
     display: block;
     margin-left: 0px;
     margin-right: 0px;
     padding-left: 0px;
     padding-right: 0px;
-
     width: 100%;
     text-align: center;
   }
@@ -125,12 +92,22 @@
 
   .headerDiv h2 {
     padding-left: 0rem;
+    margin-top: 0.4rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .pictureDiv {
+    width: 60%;
   }
 
   .contactButton {
-    margin: auto;
     display: block;
     align-items: center;
+  }
+
+  .additionalInfo {
+    width: 70%;
   }
 }
 
