@@ -2,57 +2,30 @@
 
 .header {
   width: 100%;
-  display: block;
   background-color: var(--background);
   background-size: cover;
-  padding-top: 8vh;
-  padding-bottom: 8vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .headerDiv {
-  display: inline-block;
-
-  margin-left: 4%;
-  margin-right: 0%;
-  padding-right: 1%;
-  padding-left: 2%;
-  text-align: left;
-  width: 42%;
+  text-align: center;
   color: #fac023;
-  padding-left: 4%;
-  font-size: 1.9rem;
-  vertical-align: middle;
+  padding-top: 3rem;
+}
+
+.firstHeader {
+  font-size: 1.2rem;
+  color: white;
   font-family: "Radio Canada Big", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
-
-.headerDiv h1 {
-  text-transform: uppercase;
-  letter-spacing: 1.3rem;
+.firstH {
   font-family: "Radio Canada Big", sans-serif;
   font-weight: 400;
-  text-shadow: 1px 2px 2px #000000;
-  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
-}
-
-.firstHeader {
-  margin-top: 0%;
-  margin-bottom: 0%;
-  font-size: 1.7rem;
-  color: white;
-  /*color: #f5af0dc7;*/
-}
-
-.firstH {
-  margin-top: 0%;
-  margin-bottom: 0%;
-}
-
-.secondH {
-  margin-top: 0%;
-
-  margin-bottom: 0%;
+  font-style: normal;
 }
 
 .headerDiv h2 {
@@ -65,16 +38,20 @@
 
 .pictureDiv {
   text-align: center;
-  display: inline-block;
-
-  width: 47%;
-  vertical-align: middle;
+  width: 30%;
 }
 
 .image {
   max-width: 70%;
   height: auto;
   /*box-shadow: 2px 2px 5px rgb(14, 14, 71);*/
+}
+
+.additionalInfo {
+  color: white;
+  width: 50%;
+  text-align: center;
+  line-height: 200%;
 }
 
 .contactButton {
