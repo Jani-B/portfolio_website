@@ -1,103 +1,25 @@
-.projects {
-  padding-left: 3%;
-  padding-right: 3%;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  /*padding: 1%;*/
-  /*box-shadow: -1px -1px 3px #888888;*/
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 2px;
-}
-
-.h1 {
-  color: #fac023;
-  font-family: "Roboto Slab", serif;
+.projectsh1 {
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: black;
   text-transform: uppercase;
-  margin-bottom: 3%;
+  margin-bottom: 1rem;
+  margin-top: 1.5rem;
   grid-column: span 3;
-  text-align: left;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  letter-spacing: 1rem;
-  padding-left: 3%;
-  padding-top: 5rem;
-  padding-bottom: 3rem;
-}
-
-.myProject {
-  grid-column: span 1;
-  padding: 1rem;
   text-align: center;
-  /*border: 1px solid black;*/
-}
-
-.project h3 {
-  font-family: "Roboto Slab", serif;
-  margin-bottom: 2%;
-  text-align: center;
-}
-
-.image {
-  max-width: 90%;
-  height: auto;
-  border: 1px solid #ddd;
-  padding: 1%;
-  max-height: 300px;
-  object-fit: cover;
-}
-
-.project p {
-  padding-left: 3%;
-  padding-right: 3%;
-  text-align: justify;
-}
-
-.codelanguages {
-  list-style: none;
-  margin-bottom: 2rem;
-  padding-left: 0;
-}
-
-.codelanguages li {
-  font-size: 0.8rem;
-  display: inline;
-  padding: 0.5rem 0.5rem;
-
-  margin: 0 1rem;
-  background-color: rgba(13, 117, 13, 0.452);
-  border-radius: 5px;
-}
-
-.linkContainer {
-  margin-top: 1rem;
-}
-
-.projectLink {
-  padding: 1rem;
-  margin-top: 1rem;
+  /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
+  letter-spacing: 0.5rem;
 }
 
 @media (max-width: 1250px) {
-  .projects {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .h1 {
-    grid-column: span 2;
+  .projectsh1 {
+    font-size: 1.5rem;
   }
 }
 
 @media (max-width: 950px) {
-  .projects {
-    grid-template-columns: 1fr;
-    gap: 0px;
-  }
-
-  .h1 {
-    grid-column: span 1;
-  }
-
-  .test {
-    color: green;
+  .projectsh1 {
+    font-size: 1.2rem;
   }
 }

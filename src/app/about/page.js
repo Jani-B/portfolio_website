@@ -2,7 +2,7 @@ import styles from "./page.module.css";
 import Image from "next/image";
 import NavBar from "../navbar/navbar.js";
 
-export default function Projects() {
+export default function About() {
   return (
     <>
       <nav>
