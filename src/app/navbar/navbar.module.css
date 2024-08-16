@@ -134,6 +134,10 @@
     grid-column: 1 / 5;
   }
 
+  .navResponsive ul {
+    padding-left: 0;
+  }
+
   .navResponsive li {
     list-style-type: none;
     color: var(--gold);
