@@ -11,7 +11,7 @@
 
 .headerDiv {
   text-align: center;
-  color: #fac023;
+  color: white;
   padding-top: 3rem;
 }
 
@@ -33,7 +33,6 @@
   font-size: 1.5rem;
   text-shadow: 2px 2px 4px #000000;
   font-weight: 400;
-  letter-spacing: 0.5rem;
 }
 
 .pictureDiv {
@@ -44,24 +43,24 @@
 .image {
   max-width: 70%;
   height: auto;
-  /*box-shadow: 2px 2px 5px rgb(14, 14, 71);*/
 }
 
 .additionalInfo {
   color: white;
-  width: 50%;
+  width: 35%;
   text-align: center;
   line-height: 200%;
+  font-size: 0.7rem;
 }
 
 .contactButton {
-  background-color: purple;
+  background-color: var(--orange-gold);
+  font-size: 0.7rem;
   color: white;
-  padding: 1rem;
+  padding: 0.5rem 2rem;
+  margin-bottom: 2rem;
   text-align: center;
-  margin-left: 15%;
-  margin-top: 2rem;
-  text-transform: uppercase;
+  margin-top: 1rem;
   border: none;
   border-radius: 2rem;
   text-decoration: none;

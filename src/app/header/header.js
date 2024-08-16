@@ -14,7 +14,7 @@ export default function Header() {
         <div className={styles.pictureDiv}>
           <Image
             className={styles.image}
-            src="/images/working.png"
+            src="/images/working2.png"
             width="1000"
             height="1000"
             alt="code image"
@@ -26,9 +26,11 @@ export default function Header() {
             end developer to help with your prtojects?
           </p>
         </div>
-        <Link className={styles.contactButtonContainer} href="/about">
-          <button className={styles.contactButton}>About me</button>
-        </Link>
+        <div>
+          <Link className={styles.contactButtonContainer} href="/about">
+            <button className={styles.contactButton}>About me</button>
+          </Link>
+        </div>
       </div>
     </>
   );
