@@ -5,6 +5,8 @@
   margin: 0%;
 }
 
+/*Logo and name area*/
+
 .logo {
   background-color: var(--background);
   grid-column: 1 / span 2;
@@ -35,6 +37,8 @@
   text-decoration: none;
   color: var(--white);
 }
+
+/*Navigation area with links*/
 
 .nav {
   background-color: var(--background);

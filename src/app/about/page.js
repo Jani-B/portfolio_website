@@ -14,14 +14,14 @@ export default function About() {
 
         <div className={styles.aboutMe}>
           <p>
-            I am self taught front end engineer and I love to code on my
+            I am a self taught front end engineer and I love to code in my
             freetime. I enjoy new challenges and love to find different
-            approaches to problems. Coding has been my hoppy for some time and
-            decided to take it to the next level by taking multible courses on
+            approaches to problems. Coding has been my hobby for some time and
+            decided to take it to the next level by taking multiple courses on
             CSS, Javascript and React. I do like to find new small challenges to
             keep my knowledge updated. One of the best places I like to
-            challenge my skills is Frontend mentor site, where there is good
-            projects to challenge the skills I have.
+            challenge my skills is the Frontend mentor site, where there are
+            good projects to challenge the skills I have.
           </p>
         </div>
         <div className={styles.skills}>
