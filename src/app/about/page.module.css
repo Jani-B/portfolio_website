@@ -64,6 +64,28 @@
   margin-bottom: 1rem;
 }
 
+.links {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.links li a {
+  font-size: 1.4rem;
+}
+
+.linkPictures {
+  width: 100px;
+  height: auto;
+}
+
+.linkPicturesMentor {
+  width: 150px;
+  height: auto;
+  border: 1px solid rgb(109, 109, 109);
+}
+
 .image {
   width: 30rem;
   height: auto;
