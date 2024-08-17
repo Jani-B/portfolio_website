@@ -1,7 +1,6 @@
+/****About me section*****/
 .about {
   margin: auto;
-  /*padding: 1%;*/
-  /*box-shadow: -1px -1px 3px #888888;*/
   text-align: center;
   align-content: center;
   padding-left: 15%;
@@ -27,7 +26,6 @@
 }
 
 .aboutMe h3 {
-  font-family: "Roboto Slab", serif;
   margin-bottom: 2%;
   text-align: center;
 }
@@ -35,14 +33,30 @@
 .aboutMe p {
   padding-left: 3%;
   padding-right: 3%;
-  text-align: justify;
+  text-align: center;
   font-size: 1.2rem;
 }
 
+/****Contact section*****/
+
+.contactHeader {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.contactEmail {
+  font-size: 1.2rem;
+  padding-bottom: 2rem;
+}
+
+/*****Skills section*****/
+
 .skills h2 {
-  margin-top: 3rem;
+  margin-top: 2rem;
   font-size: 1.6rem;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 1rem;
 }
 
@@ -64,10 +78,12 @@
   margin-bottom: 1rem;
 }
 
+/**** Links section *****/
+
 .links {
-  margin-top: 4rem;
+  margin-top: 2rem;
   margin-bottom: 4rem;
-  padding-top: 2rem;
+  padding-top: 1rem;
   padding-bottom: 2rem;
 }
 
@@ -85,6 +101,8 @@
   height: auto;
   border: 1px solid rgb(109, 109, 109);
 }
+
+/**** Courses picture section *****/
 
 .image {
   width: 30rem;

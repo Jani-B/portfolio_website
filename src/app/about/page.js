@@ -14,7 +14,7 @@ export default function About() {
 
         <div className={styles.aboutMe}>
           <p>
-            I am a self taught front end engineer and I love to code in my free
+            I am a self taught front-end engineer and I love to code in my free
             time. I enjoy new challenges and love to find different approaches
             to problems. Coding has been my hobby for some time and I decided to
             take it to the next level by taking multiple courses on CSS,
@@ -23,6 +23,10 @@ export default function About() {
             skills is the Frontend mentor site, where there are good projects to
             challenge the skills I have.
           </p>
+        </div>
+        <div>
+          <h2 className={styles.contactHeader}>Contact Me</h2>
+          <p className={styles.contactEmail}>Email: bergholm.dev@gmail.com</p>
         </div>
         <div className={styles.skills}>
           <h2>Skills</h2>

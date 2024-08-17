@@ -5,9 +5,9 @@ export const cardInfo = [
     cardHeader: "Find Restaurant Search API",
     stack: ["CSS", "HTML", "REACT", "Javascript"],
     cardText: [
-      "Find restaurant React App is about using Yelp API to search for restaurants",
-      "User can use to search a Restaurant using the input fields",
-      "API fill find correct restaurants that matches the input",
+      "Find restaurant React App is about using Yelp API to search for restaurants. ",
+      "User can use to search a Restaurant using the input fields ",
+      "API fill find correct restaurants that matches the input. ",
     ],
 
     cardPicture: "/images/findrestaurant.jpg",
@@ -21,10 +21,10 @@ export const cardInfo = [
     cardHeader: "Task Manager",
     stack: ["CSS", "HTML", "Next.js", "Typescript"],
     cardText: [
-      "Task Manager that will add task (on server side)",
-      "Tasks will stay even after the page has been updated",
-      "Tasks are written on json file with fs.writefile and read with fs.readfile",
-      "Added also a feature that if there is 10 tasks it will not allow to add more by removing the form",
+      "Task Manager that will add task (on server side). ",
+      "Tasks will stay even after the page has been updated. ",
+      "Tasks are written on json file with fs.writefile and read with fs.readfile. ",
+      "Added also a feature that if there is 10 tasks it will not allow to add more by removing the form. ",
     ],
 
     cardPicture: "/images/taskmanager.jpg",
