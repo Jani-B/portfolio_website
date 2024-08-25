@@ -1,5 +1,21 @@
 export const cardInfo = [
   {
+    cardId: "card12",
+    frontpage: true,
+    cardHeader: "Article preview component",
+    stack: ["CSS", "HTML", "Javascript"],
+    cardText: [
+      "Very basic challenge to get some javascript on the page. ",
+      "There is two different display. On mobile the bottom part of the container will change ",
+      "when arrow is clicked. On wider screens there will be a bubble that shows the links.",
+    ],
+
+    cardPicture: "/images/article_preview_component.jpg",
+    haswebsite: true,
+    github: "https://github.com/Jani-B/FEM-Article-preview-component",
+    webpage: "https://jani-b.github.io/FEM-Article-preview-component",
+  },
+  {
     cardId: "card11",
     frontpage: true,
     cardHeader: "Find Restaurant Search API",
@@ -34,7 +50,7 @@ export const cardInfo = [
   },
   {
     cardId: "card9",
-    frontpage: true,
+    frontpage: false,
     cardHeader: "Testimonials Grid",
     stack: ["CSS", "HTML"],
     cardText: [
