@@ -1,5 +1,21 @@
 export const cardInfo = [
   {
+    cardId: "card13",
+    frontpage: true,
+    cardHeader: "Image Gallery API",
+    stack: ["CSS", "HTML", "Javascript", "React"],
+    cardText: [
+      "React website with API to Picsum photos. ",
+      "Used Fetch with try-catch and also Rect useEffect and useState. ",
+      "Currently will fetch just few images to the site but later can change pages.",
+    ],
+
+    cardPicture: "/images/image_gallery.jpg",
+    haswebsite: true,
+    github: "https://github.com/Jani-B/picture-gallery-api",
+    webpage: "https://picture-gallery-api.vercel.app/",
+  },
+  {
     cardId: "card12",
     frontpage: true,
     cardHeader: "Article preview component",
@@ -67,7 +83,7 @@ export const cardInfo = [
 
   {
     cardId: "card8",
-    frontpage: true,
+    frontpage: false,
     cardHeader: "Four Cards Preview",
     stack: ["CSS", "HTML", "Javascript", "NEXT.js"],
     cardText: [
