@@ -1,4 +1,3 @@
-
 import styles from "./header.module.css";
 import Image from "next/image";
 import Link from "next/link";
@@ -24,7 +23,7 @@ export default async function Header() {
         <div className={styles.additionalInfo}>
           <p>
             Are you looking for a motivated, certified and skilled junior front
-            end developer to help with your prtojects?
+            end developer to help with your projects?
           </p>
         </div>
         <div>
