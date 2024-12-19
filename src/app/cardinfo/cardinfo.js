@@ -1,5 +1,21 @@
 export const cardInfo = [
   {
+    cardId: "card14",
+    frontpage: true,
+    cardHeader: "CodeLibrary - On progress!",
+    stack: ["Next.js", "Express", "Node.js", "Javascript"],
+    cardText: [
+      "Next.js project with a connection to database ",
+      "Currently server (different project) gets items from database. ",
+      "Next.js gets the items from the server side Api calls. Currently private github",
+    ],
+
+    cardPicture: "/images/codelibrary.jpg",
+    haswebsite: true,
+    github: "https://github.com/Jani-B",
+    webpage: "https://codelibclient.vercel.app/",
+  },
+  {
     cardId: "card13",
     frontpage: true,
     cardHeader: "Image Gallery API",
@@ -49,7 +65,7 @@ export const cardInfo = [
   },
   {
     cardId: "card10",
-    frontpage: true,
+    frontpage: false,
     cardHeader: "Task Manager",
     stack: ["CSS", "HTML", "Next.js", "Typescript"],
     cardText: [
