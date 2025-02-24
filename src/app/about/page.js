@@ -75,7 +75,7 @@ export default function About() {
           <p>Full-Stack Engineer : CodeCademy</p>
           <Image
             className={styles.image}
-            src="/images/full-stack-sertificate.jpg"
+            src="/images/full-stack-certificate.jpg"
             width="1000"
             height="1000"
             alt="code image"
