@@ -71,6 +71,16 @@ export default function About() {
           </div>
 
           <h2>Courses</h2>
+
+          <p>Full-Stack Engineer : CodeCademy</p>
+          <Image
+            className={styles.image}
+            src="/images/full-stack-sertificate.jpg"
+            width="1000"
+            height="1000"
+            alt="code image"
+          />
+
           <p>Front - End Engineer : CodeCademy</p>
 
           <Image
