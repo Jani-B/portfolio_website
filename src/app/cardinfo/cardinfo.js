@@ -1,8 +1,24 @@
 export const cardInfo = [
   {
+    cardId: "card15",
+    frontpage: true,
+    cardHeader: "FastVisitor - In progress!",
+    stack: ["Next.js", "Express", "Node.js", "Typescript"],
+    cardText: [
+      "Next.js project with connection to backend on different domain and database ",
+      "Map function to find customers and visit tracking and visit reports. ",
+      "Admin can create new users and add multible customers trough import",
+    ],
+
+    cardPicture: "/images/FastVisitor.jpg",
+    haswebsite: true,
+    github: "https://github.com/Jani-B",
+    webpage: "https://fastvisitor.vercel.app/",
+  },
+  {
     cardId: "card14",
     frontpage: true,
-    cardHeader: "CodeLibrary - On progress!",
+    cardHeader: "CodeLibrary - In progress!",
     stack: ["Next.js", "Express", "Node.js", "Javascript"],
     cardText: [
       "Next.js project with a connection to database ",
@@ -33,7 +49,7 @@ export const cardInfo = [
   },
   {
     cardId: "card12",
-    frontpage: true,
+    frontpage: false,
     cardHeader: "Article preview component",
     stack: ["CSS", "HTML", "Javascript"],
     cardText: [
